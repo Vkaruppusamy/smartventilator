@@ -1,0 +1,12 @@
+Tuesday, 28 September, 2021 2:04:09 PM IST
+NEW FILE.
+DATASET NAME DataSet1 WINDOW=FRONT.
+GET
+  FILE='D:\IBM SPSS\Portable IBM SPSS Statistics\output\coffee.sav'.
+DATASET NAME DataSet2 WINDOW=FRONT.
+DATASET ACTIVATE DataSet2.
+DATASET CLOSE DataSet1.
+GET
+  FILE='D:\IBM SPSS\Portable IBM SPSS Statistics\output\bankloan_binning.sav'.
+DATASET NAME DataSet3 WINDOW=FRONT.
+DATASET CLOSE DataSet3.
